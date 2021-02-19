@@ -1,19 +1,23 @@
-body {
+body, html {
+    width: 100%;
     overflow: auto;
 }
 a {
     text-decoration: none;
 }
 .title {
+    width: 100%;
     height: 137px;
     line-height: 137px;
     background-image: url(../img/background/title-background.png);
 }
 .content {
+    width: 100%;
     height: 1280px;
     background-image: url(../img/background/content-background.png);
 }
 .footer {
+    width: 100%;
     height: 170px;
     background-image: url(../img/background/footer-background.png);
 }

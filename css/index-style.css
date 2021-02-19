@@ -1,5 +1,5 @@
 body, html {
-    width: 100%;
+    min-width: 1600px;
     overflow: auto;
 }
 a {
@@ -23,7 +23,7 @@ a {
 }
 .w {
     height: 100%;
-    width: 60%;
+    width: 940px;
     min-width: 580px;
     max-width: 940px;
     margin: 0 auto;
@@ -146,10 +146,10 @@ li {
     padding-bottom: 20px;
 }
 .block {
-    width: 30%;
+    width: 300px;
     line-height: 100%;
     vertical-align: top;
-    padding-right: 5%;
+    padding-right: 20px;
     display: inline-block;
     position: relative;
 }
@@ -170,7 +170,7 @@ li {
     height: 430px;
 }
 .button {
-    width: 50%;
+    width: 160px;
     margin-top: 20px;
     height: 30px;
     display: inline-block;

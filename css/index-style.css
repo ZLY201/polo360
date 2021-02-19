@@ -23,7 +23,9 @@ a {
 }
 .w {
     height: 100%;
-    width: 940px;
+    width: 60%;
+    min-width: 580px;
+    max-width: 940px;
     margin: 0 auto;
     position: relative;
 }
@@ -144,10 +146,10 @@ li {
     padding-bottom: 20px;
 }
 .block {
-    width: 300px;
+    width: 30%;
     line-height: 100%;
     vertical-align: top;
-    padding-right: 20px;
+    padding-right: 5%;
     display: inline-block;
     position: relative;
 }
@@ -168,7 +170,7 @@ li {
     height: 430px;
 }
 .button {
-    width: 160px;
+    width: 50%;
     margin-top: 20px;
     height: 30px;
     display: inline-block;
@@ -201,7 +203,7 @@ li {
 }
 .other textarea {
     width: 100%;
-    font: normal Verdana 10px;
+    font: normal 10px Verdana;
     line-height: 30px;
     border-radius: 5px;
     resize: none;
